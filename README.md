@@ -1,3 +1,3 @@
-# stephbydesign.github.io
+# stephbydesign's portfolio.
 
 My portfolio website.
