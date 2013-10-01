@@ -4,23 +4,31 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @-viewport { width: device-width; scale: 1; }
 
-* {
-  margin: 0;
-}
 html, body {
   height: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 
-  font: normal 100%/1.4 Roboto, sans-serif;
+  font: normal 100%/1.4 Montserrat, sans-serif;
 }
+
+h1 {
+  padding-bottom: 1.5rem;
+  font-style: 700;
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
 .wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
   margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
 }
+
 .footer, .push {
   height: 50px; /* .push must be the same height as .footer */
 }
@@ -33,9 +41,7 @@ html, body {
 }
 
 body {
-  background-color: #ccc;
-  min-width: 240px;
-  max-width: 3000px;
+  background-image: url('geometry.png');
   margin: 1em 1em 0em 1em;
   padding: 0;
 }
@@ -54,18 +60,18 @@ ul img {
 
 li {
   display: inline-block;
-
+  margin: 0 5px;
 }
 
 .icon {
   width: 100%;
   position: absolute;
-  bottom: 25%;
-  left: 1%;
+  bottom: 15%;
+  left: 0%;
 }
 
 div img {
-  width: 40%;
+  width: 30%;
   bottom: 0;
   right: 0;
 }
