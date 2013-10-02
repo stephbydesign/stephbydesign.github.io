@@ -1,8 +1,16 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7db2604a07a08401daa0bfa56f3ad64ef3a64e25
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
+<<<<<<< HEAD
 @-viewport { width: device-width; scale: 1; }
+=======
+@viewport { width: device-width; scale: 1; }
+>>>>>>> 7db2604a07a08401daa0bfa56f3ad64ef3a64e25
 
 html, body {
   height: 100%;
@@ -12,6 +20,7 @@ html, body {
 
   font: normal 100%/1.4 Montserrat, sans-serif;
 }
+<<<<<<< HEAD
 
 h1 {
   padding-bottom: 1.5rem;
@@ -93,3 +102,5 @@ div img {
   }
 
 }
+=======
+>>>>>>> 7db2604a07a08401daa0bfa56f3ad64ef3a64e25
