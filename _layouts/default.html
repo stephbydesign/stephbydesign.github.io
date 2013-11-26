@@ -2,32 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Stephanie Albert</title>
+  <title>Stephanie Albert – Stephbydesign; Ottawa, Canada </title>
 
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="css/general.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato|Old+Standard+TT' rel='stylesheet'>
+
+
+  <link href="{{site.baseurl}}/css/portfolio.css" rel="stylesheet" >
+
 </head>
+
 <body>
 
-  <header>
-    <nav>
-      <a href="{{site.baseurl}}/index.html">Home</a>
-      <a href="{{site.baseurl}}/portfolio.html">Portfolio</a>
-      <a href="{{site.baseurl}}/contact.html">Contact</a>
-    </nav>
- </header>
+  <div class="grid">
+    <header class="unit unit-spacer unit-s-1 unit-m-1 unit-l-1">
+    <img src="img/face.png" class="unit top " alt="profile picture">
 
-  {{content}}
-
-  <footer>
-    <div class="footer">
-      <img src="img/face-small.png" alt="profile picture">
+      <h1 class="unit-spacer unit-s-1">Stephanie Albert</h1>
+    </header>
+      <nav class="nav unit-s-1 unit-sm-1 unit-m-1 unit-l-1">
+        <a href="{{site.baseurl}}/index.html">Home</a>
+        <a href="{{site.baseurl}}/portfolio.html">Portfolio</a>
+        <a href="{{site.baseurl}}/contact.html">Contact</a>
+      </nav>
     </div>
-  </footer>
 
-</body>
+
+    <div class="unit">
+      <p class="unit-spacer unit-s-1-2 unit-sm-1-2 unit-m-1-3 unit-l-1-4 state">I create stunning web design & innovative visual identities. </p>
+
+      <p class="unit-spacer unit-xs-1 unit-s-1-2 unit-sm-1-2 unit-m-1-3 unit-l-1-4">I thrive in creative team environments and as a perfectionist at heart I strive to deliver the most effective solutions at the highest of standards.</p>
+
+      <p class="unit-spacer unit-xs-1 unit-s-1-2 unit-sm-1-2 unit-m-1-3 unit-l-1-4">Fluent in English and French I'm able to work with with a large scope of clients.</p>
+    </div>
+    <div class="grid">
+        {{content}}
+    </div>
+
+      <div class="grid footer">
+        <img src="img/face.png" class="profile unit " alt="profile picture">
+        <footer class="unit-spacer unit-xs-1 unit-s-1">
+          {% include icons.html %}
+        </footer>
+      </div>
+  </div>
+  </body>
 </html>
