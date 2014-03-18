@@ -24,6 +24,7 @@ h1 {
   color: #734854;
   font-family: 'Lato', sans-serif;
   height: 100%;
+  text-align: center;
 }
 
 header,
@@ -47,7 +48,7 @@ div header {
 }
 
 .state {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: center;
 }
 
@@ -86,8 +87,8 @@ img {
   padding: 0;
   margin: 0;
   text-align: center;
-  border-bottom: 1px solid #434A5C;
-  background: #ffffff;
+  border-bottom: 1px solid #734854;
+  background: #734854;
   width: 100%;
 }
 
@@ -97,7 +98,7 @@ img {
   display: inline-block;
   padding: 20px 10px;
 
-  color: #F2F2E9;
+  color: #fff;
   text-decoration: none;
   text-align: center;
 }
@@ -106,7 +107,7 @@ img {
 .nav a:focus,
 .nav a:active {
   background-color: #F2F2E9;
-  padding: 0.5rem 10px;
+  padding: 20px 10px;
 
   color: #734854;
 }
