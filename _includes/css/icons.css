@@ -2,7 +2,7 @@
   display: inline-block;
   height: 38px;
   width: 38px;
-  margin: 2%;
+  margin: 5px 10px;
 
   background: url("../img/icons/icon-sprites.png") no-repeat 0 0;
 }

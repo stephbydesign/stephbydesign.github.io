@@ -8,33 +8,49 @@
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <link href='http://fonts.googleapis.com/css?family=Lato|Old+Standard+TT' rel='stylesheet'>
+<!--CSS-->
   <link href="{{site.baseurl}}/css/portfolio.css" rel="stylesheet" >
+
+<!--FONT-->
+  <link href='http://fonts.googleapis.com/css?family=Lato|Old+Standard+TT' rel='stylesheet'>
+
+<!--SCRIPT-->
+  <script src="{{site.baseurl}}/js/modernizr.js"></script>
 
 </head>
 
 <body>
-    <header class="unit header">
-      <img class="banner" src="{{site.baseurl}}/img/banner1.jpg" alt="">
-      <img class="banner" src="{{site.baseurl}}/img/banner2.jpg" alt="">
-      <nav class="nav">
-        <a href="{{site.baseurl}}/index.html">Home</a>
-        <a href="http://stephbydesignblog.tumblr.com">Blog</a>
-        <a href="{{site.baseurl}}/contact.html">Contact</a>
-      </nav>
-      <h1>Stephanie Albert</h1>
-      <h3 class="unit-spacer unit-s-1 unit-sm-1 unit-m-1-3 unit-l-1-4 state">Graphic Designer. Obsessed with the automotive industry and good UX. Also responds to Miss. Sassy-pants.</h3>
-    </header>
+  <header class="unit header">
+    <img class="banner" src="{{site.baseurl}}/img/banner1.jpg" alt="">
+    <img class="banner" src="{{site.baseurl}}/img/banner2.jpg" alt="">
 
-    <div class="grid">
-        {{content}}
+    <nav class="nav">
+      <a href="{{site.baseurl}}/index.html">Home</a>
+      <a href="http://stephbydesignblog.tumblr.com">Blog</a>
+      <a href="#footer">Contact</a>
+    </nav>
+
+    <h1>Stephanie Albert</h1>
+    <h3 class="unit-spacer unit-s-1 unit-sm-1 unit-m-1-3 unit-l-1-4 state">Graphic Designer. Obsessed with the automotive industry and good UX. Also responds to Miss. Sassy-pants.</h3>
+  </header>
+
+  <div class="grid">
+      {{content}}
+  </div>
+
+  <p class="unit unit-s-1 unit-m-1-2 unit-l-3">Want to chat with me over delicious café Americano? <a href=”mailto:hello.stephbydesign@gmail.com?subject=I%20want%20coffee”><a href="">Say "Hello"</a></p>
+
+    <div id="#footer">
+      <footer class="unit-spacer unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+        {% include icons.html %}
+        <p class="copyright">©Stephanie Albert 2014. All Rights Reserved.</p>
+      </footer>
     </div>
 
-      <div>
-        <footer class="unit-spacer unit-xs-1 unit-s-1">
-          {% include icons.html %}
-        </footer>
-      </div>
-  </div>
+<!--SCRIPTS-->
+  <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+  <script src="js/waypoint.min.js"></script>
+  <script src="{{site.baseurl}}/js/portfolio.js"></script>
+
   </body>
 </html>
